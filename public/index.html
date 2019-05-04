@@ -3,18 +3,9 @@
 <head>
 	<meta charset="utf-8" />	
 	<script src="/socket.io/socket.io.js" > </script>
+	<script src="/js/index.js" > </script>
 </head>
 <body>
-	<p>Welcome to node chat app</p>	
-	<script type="text/javascript">
-		var socket = io();		
-		socket.on('connect', () => {
-			console.log('Connected to server');
-		});
-
-		socket.on('disconnect', () => {
-			console.log('disconnected');
-		});
-	</script>
+	<p>Welcome to node chat app</p>		 
 </body>
 </html>
